@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Soul - AI Companion",
+  title: "Vortex - AI Companion",
   description: "Chat with an empathetic AI companion about your life problems",
     generator: 'v0.dev'
 }
