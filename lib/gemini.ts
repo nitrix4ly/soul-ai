@@ -69,11 +69,11 @@ async function generateDirectResponse(message: string, history: any[]) {
     // Prepare context from history
     let contextText = ""
     if (history.length > 0) {
-      contextText = history.map((msg) => `${msg.role === "user" ? "User" : "Soul"}: ${msg.content}`).join("\n") + "\n"
+      contextText = history.map((msg) => `${msg.role === "user" ? "User" : "Vortex"}: ${msg.content}`).join("\n") + "\n"
     }
 
     // Create prompt with system instructions, context and current message
-    const prompt = `${SYSTEM_PROMPT}\n\nConversation history:\n${contextText}User: ${message}\n\nSoul:`
+    const prompt = `${SYSTEM_PROMPT}\n\nConversation history:\n${contextText}User: ${message}\n\nVortex:`
 
     const result = await model.generateContent(prompt)
     const response = await result.response
