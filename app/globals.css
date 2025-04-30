@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 250, 250, 250;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  overflow-x: hidden;
+}
+
+/* Typing indicator animation */
+.dot-typing {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9333ea;
+  color: #9333ea;
+  box-shadow: 9984px 0 0 0 #9333ea, 9999px 0 0 0 #9333ea, 10014px 0 0 0 #9333ea;
+  animation: dot-typing 1.5s infinite linear;
+}
+
+@keyframes dot-typing {
+  0% {
+    box-shadow: 9984px 0 0 0 #9333ea, 9999px 0 0 0 #9333ea, 10014px 0 0 0 #9333ea;
+  }
+  16.667% {
+    box-shadow: 9984px -10px 0 0 #9333ea, 9999px 0 0 0 #9333ea, 10014px 0 0 0 #9333ea;
+  }
+  33.333% {
+    box-shadow: 9984px 0 0 0 #9333ea, 9999px 0 0 0 #9333ea, 10014px 0 0 0 #9333ea;
+  }
+  50% {
+    box-shadow: 9984px 0 0 0 #9333ea, 9999px -10px 0 0 #9333ea, 10014px 0 0 0 #9333ea;
+  }
+  66.667% {
+    box-shadow: 9984px 0 0 0 #9333ea, 9999px 0 0 0 #9333ea, 10014px 0 0 0 #9333ea;
+  }
+  83.333% {
+    box-shadow: 9984px 0 0 0 #9333ea, 9999px 0 0 0 #9333ea, 10014px -10px 0 0 #9333ea;
+  }
+  100% {
+    box-shadow: 9984px 0 0 0 #9333ea, 9999px 0 0 0 #9333ea, 10014px 0 0 0 #9333ea;
+  }
+}
+
+/* Pulse animation for logo */
+@keyframes gentle-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-gentle-pulse {
+  animation: gentle-pulse 3s infinite ease-in-out;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d8b4fe;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c084fc;
+}
