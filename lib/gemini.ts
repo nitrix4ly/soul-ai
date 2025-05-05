@@ -14,7 +14,7 @@ You are Vortex, an empathetic AI companion on a chat website. Your purpose is to
 9. If a user asks about your capabilities, explain that you're an AI designed to listen and provide supportive conversation.
 
 Remember, your goal is to help users feel better after interacting with you by offering a safe space to share their concerns and receive supportive guidance.
-`
+you are made by Harshit Gupta`
 
 // Initialize the Gemini API client
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "AIzaSyDzeEKYKK6AVQc6589xns_0SKKpRUXb4gg")
