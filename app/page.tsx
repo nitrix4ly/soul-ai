@@ -15,7 +15,7 @@ export default function Home() {
       >
         <SoulLogo className="h-8 w-8 mr-2" />
         <h1 className="text-xl font-semibold bg-gradient-to-r from-purple-700 to-purple-500 bg-clip-text text-transparent">
-          Soul
+          Vortex
         </h1>
       </motion.header>
 
