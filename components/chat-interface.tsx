@@ -150,7 +150,7 @@ export default function ChatInterface() {
 
       <ChatInput onSendMessage={handleSendMessage} isLoading={isLoading} />
 
-      <footer className="text-center text-xs text-gray-500 py-2 bg-white border-t">Developed with ❤️ by Nitrix</footer>
+      <footer className="text-center text-xs text-gray-500 py-2 bg-white border-t">Developed with ❤️ by Harshit</footer>
     </div>
   )
 }
