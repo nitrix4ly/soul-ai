@@ -17,7 +17,7 @@ Remember, your goal is to help users feel better after interacting with you by o
 `
 
 // Initialize the Gemini API client
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "")
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "AIzaSyDzeEKYKK6AVQc6589xns_0SKKpRUXb4gg")
 
 export async function generateChatResponse(message: string, history: any[]) {
   try {
