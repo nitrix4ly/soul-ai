@@ -20,7 +20,7 @@ export default function WelcomeMessage() {
       <div className="text-sm text-gray-500 pt-2 border-t w-full">
         <p>Start by typing a message below.</p>
       </div>
-      <div className="text-xs text-purple-600 font-medium mt-2">Developed by Harshu</div>
+      <div className="text-xs text-purple-600 font-medium mt-2">Made by Harshit</div>
     </motion.div>
   )
 }
