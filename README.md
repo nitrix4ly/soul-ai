@@ -20,24 +20,6 @@ Soul AI is a clean and modular AI-powered chat interface built with **Next.js**,
 
 ---
 
-## Project Structure
-
-```
-soul-ai/
-â”œâ”€â”€ app/                  # Next.js App Router structure
-â”‚   â”œâ”€â”€ api/chat/         # Chat API route
-â”‚   â”œâ”€â”€ layout.tsx        # Global layout
-â”‚   â””â”€â”€ page.tsx          # Main chat page
-â”œâ”€â”€ components/           # Reusable UI components
-â”œâ”€â”€ public/               # Public assets (if any)
-â”œâ”€â”€ styles/               # Global styles
-â”œâ”€â”€ tailwind.config.ts    # Tailwind CSS configuration
-â”œâ”€â”€ tsconfig.json         # TypeScript configuration
-â””â”€â”€ package.json
-```
-
----
-
 ## Getting Started
 
 1. **Clone the repository**
