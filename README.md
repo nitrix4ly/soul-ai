@@ -15,7 +15,6 @@ Soul AI is a clean and modular AI-powered chat interface built with **Next.js**,
 - Clean UI built with Tailwind CSS and Shadcn components
 - Modular and reusable React components
 - API route for chat handling (`/api/chat`)
-- Dark/light theme support
 - Type-safe with TypeScript
 
 ---
